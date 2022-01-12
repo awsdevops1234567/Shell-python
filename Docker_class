@@ -23,3 +23,6 @@ docker save imagename | gzip > imagename.tar.gz
 docker load < image.tar.gz
 docker rm container
 docker rmi imagename
+docker cp 
+docker --version
+docker info
