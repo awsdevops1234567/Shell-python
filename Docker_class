@@ -21,3 +21,5 @@ docker exec
 docker commit container1      (it creates image)
 docker save imagename | gzip > imagename.tar.gz
 docker load < image.tar.gz
+docker rm container
+docker rmi imagename
