@@ -13,3 +13,11 @@ docker run -d --name test --network networkname imagename
 docker run -d \ --name devtest \ --mount source=myvol2,target=/app \ nginx:latest
 docker network connect networkname  container1
 
+Docker build -t myapp :1.0 .
+docker file
+
+docker system prune
+docker exec 
+docker commit container1      (it creates image)
+docker save imagename | gzip > imagename.tar.gz
+docker load < image.tar.gz
