@@ -1,0 +1,15 @@
+
+docker ps
+docker ps -a
+docker top
+docker logs
+docker run
+docker stop start restart kill
+docker push tag pull 
+docker hub login sign up 
+docker volume ls
+docker network create test
+docker run -d --name test --network networkname imagename
+docker run -d \ --name devtest \ --mount source=myvol2,target=/app \ nginx:latest
+docker network connect networkname  container1
+
